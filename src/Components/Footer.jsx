@@ -71,7 +71,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8 lg:gap-12 mb-12">
           {/* Company Info */}
           <div className="lg:col-span-2">
-            <h2 className="text-2xl font-bold text-white mb-4">Codecelix</h2>
+            <h2 className="text-2xl font-bold text-white mb-4">UpSkills</h2>
             <p className="mb-6 text-sm leading-relaxed text-gray-400">
               AI-powered solutions to automate, scale, and grow your business. 
               Transform your operations with intelligent automation.
@@ -81,8 +81,8 @@ export default function Footer() {
             <div className="space-y-3 mb-6">
               <div className="flex items-center gap-3 text-sm">
                 <FaEnvelope className="w-5 h-5 text-indigo-400" />
-                <a href="mailto:contact@codecelix.com" className="hover:text-white text-base transition">
-                  contact@codecelix.com
+                <a href="mailto:contact@UpSkills.com" className="hover:text-white text-base transition">
+                  contact@UpSkills.com
                 </a>
               </div>
               <div className="flex items-center gap-3 text-sm">
@@ -102,7 +102,7 @@ export default function Footer() {
               <h4 className="text-white font-semibold mb-3 text-base">Follow Us</h4>
               <div className="flex gap-3">
                 <a
-                  href="https://www.facebook.com/CodeCelix"
+                  href="https://www.facebook.com/UpSkills"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="h-11 w-11 rounded-lg border border-gray-700 bg-gray-800/50 flex items-center justify-center hover:border-indigo-500 hover:bg-indigo-500/10 hover:text-white transition"
@@ -111,7 +111,7 @@ export default function Footer() {
                   <FaFacebookF className="w-7 h-7" />
                 </a>
                 <a
-                  href="https://twitter.com/codecelix"
+                  href="https://twitter.com/UpSkills"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="h-11 w-11 rounded-lg border border-gray-700 bg-gray-800/50 flex items-center justify-center hover:border-indigo-500 hover:bg-indigo-500/10 hover:text-white transition"
@@ -120,7 +120,7 @@ export default function Footer() {
                   <FaTwitter className="w-7 h-7" />
                 </a>
                 <a
-                  href="https://www.linkedin.com/company/codecelix"
+                  href="https://www.linkedin.com/company/UpSkills"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="h-11 w-11 rounded-lg border border-gray-700 bg-gray-800/50 flex items-center justify-center hover:border-indigo-500 hover:bg-indigo-500/10 hover:text-white transition"
@@ -129,7 +129,7 @@ export default function Footer() {
                   <FaLinkedinIn className="w-7 h-7" />
                 </a>
                 <a
-                  href="https://www.instagram.com/codecelix/"
+                  href="https://www.instagram.com/UpSkills/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="h-11 w-11 rounded-lg border border-gray-700 bg-gray-800/50 flex items-center justify-center hover:border-indigo-500 hover:bg-indigo-500/10 hover:text-white transition"
@@ -268,7 +268,7 @@ export default function Footer() {
         <div className="border-t border-gray-800 pt-8">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="text-sm text-gray-400">
-              © {new Date().getFullYear()} Codecelix. All rights reserved.
+              © {new Date().getFullYear()} UpSkills. All rights reserved.
             </div>
             <div className="flex items-center gap-6 text-sm">
               <Link to="/" className="text-gray-400 hover:text-indigo-400 transition">

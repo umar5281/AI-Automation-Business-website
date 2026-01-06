@@ -19,7 +19,7 @@ export default function Navbar() {
       <nav className="flex items-center p-6 lg:px-8">
         {/* Logo */}
         <Link to="/" className="text-xl md:text-2xl font-bold text-white">
-          Code Celix
+          UpSkills
         </Link>
 
         {/* Desktop Menu */}
